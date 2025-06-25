@@ -22,7 +22,7 @@
 
 # app.baseURL = ''
 # If you have trouble with `.`, you could also use `_`.
- app_baseURL = 'attendance-production-22d0.up.railway.app/'
+ app_baseURL = 'https://attendance-production-22d0.up.railway.app/'
 # app.forceGlobalSecureRequests = false
 # app.CSPEnabled = false
 
