@@ -14,7 +14,7 @@
 # ENVIRONMENT
 #--------------------------------------------------------------------
 
-CI_ENVIRONMENT = production
+CI_ENVIRONMENT = development
 
 #--------------------------------------------------------------------
 # APP
@@ -22,7 +22,9 @@ CI_ENVIRONMENT = production
 
 # app.baseURL = ''
 # If you have trouble with `.`, you could also use `_`.
-app.baseURL = 'https://attendance-production-22d0.up.railway.app/'
+
+app.baseURL = 'http://0.0.0.0:' # You can leave this blank or set it for debugging
+
 
 # app.forceGlobalSecureRequests = false
 # app.CSPEnabled = false
